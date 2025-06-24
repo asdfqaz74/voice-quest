@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 const steps = [
   { path: "/", label: "정보 입력" },
   { path: "/step2", label: "테마 선택" },
+  { path: "/step3", label: "퀘스트" },
 ];
 
 function LinearProgressWithLabel({ value }) {
